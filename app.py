@@ -15,7 +15,7 @@ This app helps you analyze your business performance using your financial data.
 """)
 st.markdown("---")
 
-st.image(r"C:\\University\\Semester 6\\Financial Programming\\Assignment 3\\BusinessHealthApp\\Finance_Home_Image.jpg", use_container_width=True)
+st.image("Finance_Home_Image.jpg", use_container_width=True)
 
 st.sidebar.header("📂 Upload Business Data")
 uploaded_file = st.sidebar.file_uploader('Upload a CSV file', type=['csv'])
